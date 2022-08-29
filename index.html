@@ -93,8 +93,8 @@
             <h2>O Clube Dungeons & Dragons</h2>
             <p>
               Para deter Vecna, os heróis de Stranger Things também precisam de
-              você. O Clube de D&D mais famoso de Hawkings está com vagas abertas
-              para sua próxima aventura. Se você é destemido, gosta de desafios e
+              você. O Clube de D&D mais famoso de Hawkings está com vagas abertas para 
+              sua próxima aventura. Se você é destemido, gosta de desafios e
               não tem medo de rodar o D20, chegou a hora de se inscrever para fazer
               parte da nova campanha.
             </p>
@@ -116,7 +116,7 @@
                   <label for="character">Personagem</label>
                   <textarea name="character" cols="30" rows="10" id="txtCharacter"></textarea>
     
-                  <button type="button" id="btnSubscribe">Me inscrever</button>
+                  <button>Me inscrever</button>
                 </form>
                 <!--<script type="module" src="assets/js/main.Js"></script>-->
               </div>
@@ -130,9 +130,10 @@
             conhecimentos de HTML, CSS e JavScript aprendidos na DIO.
         </p>
         <img src="assets/images/footer/logo.svg" alt="Logotipo DIO">
-    </footer>
-
-     <script type="module" src="assets/js/main.js"></script>
+        ::after
+      </footer>
+    <audio id="music" src="assets/musics/inverted-world.mpeg" autoplay></audio>
+    
     <script>
       window.addEventListener('click', function() {
         const audio = document.getElementById('music');
@@ -148,9 +149,12 @@
         const music = theme === 'light-theme' ? 'normal-world.mpeg' : 'inverted-world.mpeg'
 
         const audio = document.getElementById('music');
+        audio.src =`assets/musics/${music}`;
         audio.play();
         audio.volume = 0.2;
        }
     </script>
+
+ <script src="assets/js/main.js" type="module"></script>
  </body>
-</html>
+ </html>
