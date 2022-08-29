@@ -1,6 +1,4 @@
 # semana-frontend-mundo-invertido
-@@ -1,2 +1,107 @@
-# semana-frontend-mundo-invertido
 Página com theme switcher utilizando HTML, CSS e JavaScript, além de integrar um formulário de inscrição com um banco de dados Firebase.
 <p align="center">
     <img width="300" src="https://micheleambrosio.github.io/semana-frontend-mundo-invertido/assets/images/banner/logo.svg">
